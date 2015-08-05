@@ -16,5 +16,6 @@
 </head>
 <body>
     <div class="header">
-      <h1><img src="images/logo.svg" /></h1>
+      <img src="images/logo.svg" />
+      <a href="#mailchimp" class="signup" id="list-trigger">Pre-Order Mailing List</a>
     </div>

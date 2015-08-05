@@ -1,0 +1,20 @@
+body{
+	background-color:#fff;
+	font-family: $bodyfont;
+}
+#big-wrap{
+	width:100%;
+	position:absolute;
+	z-index:6;
+}
+#main{
+	background-color: #fff;
+	position: relative;
+	
+}
+.overlay-container{
+	position: relative;
+	z-index:888;
+	width:100%;
+	background-color:#fff;
+}

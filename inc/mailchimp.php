@@ -8,7 +8,7 @@
 <div id="mc_embed_signup">
 <form action="//poweredbystacked.us11.list-manage.com/subscribe/post?u=21f5f1260cf018f631b94cfb1&amp;id=248c03b790" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Newsletter</h2>
+	<h2>Pre-Order Mailing List</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>

@@ -1,10 +1,47 @@
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+  > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+
+
+#video{
+  // @include aspect-ratio(16, 9);
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:4;
+  width:100%;
+  height:auto;
+  margin-top:109px;
+  margin-bottom: 4.0em;
+  padding-bottom: 10.0em;
+  max-width: 2400px;
+  max-height: 920px;
+}
+
 .header-video {
   position: relative;
-  overflow: hidden;
+  // max-height: 920px;
+  max-width: 2400px;
+  margin: 0 auto;
 }
 
 .video-content-stripe{
-  background-color: #999;
+// padding-bottom: 10.0em;
 }
 
 iframe, video {
@@ -13,6 +50,7 @@ iframe, video {
   bottom: 0;
   left: 0;
   right: 0;
+  padding-top:2%;
 }
 
 iframe {
@@ -32,6 +70,10 @@ video {
 .header-video--media {
   width: 100%;
   height: auto;
+  max-width: 20000px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
   img{
     width:100%;
     height:auto;
@@ -39,7 +81,7 @@ video {
 }
 
 .video-trigger {
-  z-index: 5;
+  z-index: 9999;
   position: absolute;
   background: rgba(0, 0, 0, 0.6);
   text-align: center;
@@ -52,7 +94,7 @@ video {
   left: 50%;
   line-height: 60px;
   margin-left: -100px;
-  top: 50%;
+  top: 45%;
   margin-top: -30px;
   -webkit-transition: background .3s;
   -moz-transition: background .3s;
@@ -64,6 +106,7 @@ video {
 
 .video-trigger:hover {
   background: #363636;
+  color:#FFF200;
 }
 
 .container {

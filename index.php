@@ -5,28 +5,36 @@
 <div id="top"></div>
    <section id="video" class="video-content-stripe">
         <div class="header-video">
-            <img src="images/video-fallback.jpg" class="header-video--media" data-video-src="116895374"  data-provider="Vimeo" data-video-width="500" data-video-height="281">
-            <a href="https://vimeo.com/116895374" class="video-trigger" id="video-trigger">Play video</a>
+            <img src="images/video-fallback.jpg" class="header-video--media" data-video-src="135315277"  data-provider="Vimeo" data-video-width="500" data-video-height="281">
+            <a href="https://vimeo.com/135315277" class="video-trigger" id="video-trigger">Play video</a>
         </div>
+        
     </section>
+    <div id="big-wrap">
     <div id="main">
-      
+      <div class="overlay-container">
         <section id="block_1" class="content-stripe story-container">
             <div class="content-block_left">
-                <h1>Copy Block #1</h1>
+                <h1>full protection</h1>
                 <p>
-                    Squid whatever pug High Life freegan, Godard mlkshk. Wolf organic Pinterest, +1 biodiesel typewriter tousled VHS wayfarers fanny pack. Messenger bag Williamsburg Portland synth yr. Fashion axe art party taxidermy, paleo pork belly kale chips YOLO fingerstache. Pour-over Shoreditch distillery vinyl meggings meditation. Direct trade +1 asymmetrical dreamcatcher, Carles meggings ethical. Selfies whatever actually pop-up Godard.
+                    Our case offers full phone protection and easy access to buttons and ports.
+                </p>
+
+                <p>
+                    Our proprietary patented secure slide lock offers a robust yet thin one piece case design for ease of assembly.
+                    No more missing pieces or multiple steps to assemble your case. Simply pop in your phone, slide the connector and you’re ready for wireless charging.
                 </p>
             </div>
             <div class="img-block_right">
                 <img src="images/copy-blocks/stacked_2.jpg" />
             </div>
         </section>
+
         <section id="block_2" class="content-stripe story-container">
             <div class="content-block_right">
-                <h1>Copy Block #2</h1>
+                <h1>magnetic connection</h1>
                 <p>
-                    Squid whatever pug High Life freegan, Godard mlkshk. Wolf organic Pinterest, +1 biodiesel typewriter tousled VHS wayfarers fanny pack. Messenger bag Williamsburg Portland synth yr. Fashion axe art party taxidermy, paleo pork belly kale chips YOLO fingerstache. Pour-over Shoreditch distillery vinyl meggings meditation. Direct trade +1 asymmetrical dreamcatcher, Carles meggings ethical. Selfies whatever actually pop-up Godard.
+                    At the heart of the Stacked iPhone® case is our magnetic connector which is built directly into the back of all our slim cases to allow easy wireless charging while offering full protection. Direct battery transfer works even more efficiently than plugging into the wall.
                 </p>
             </div>
             <div class="img-block_left">
@@ -35,19 +43,55 @@
         </section>
         <section id="block_3" class="content-stripe story-container">
             <div class="content-block_left">
-                <h1>Copy Block #3</h1>
+                <h1>charges faster</h1>
                 <p>
-                    Squid whatever pug High Life freegan, Godard mlkshk. Wolf organic Pinterest, +1 biodiesel typewriter tousled VHS wayfarers fanny pack. Messenger bag Williamsburg Portland synth yr. Fashion axe art party taxidermy, paleo pork belly kale chips YOLO fingerstache. Pour-over Shoreditch distillery vinyl meggings meditation. Direct trade +1 asymmetrical dreamcatcher, Carles meggings ethical. Selfies whatever actually pop-up Godard.
+                    Wireless charging just took a giant step forward. STACKED charges faster than competing technologies because our magnetic connectors form direct contact to charge your iPhone®.  
+                </p>
+
+                <p>
+                    STACKED is the first wireless charging ecosystem to charge your iPhone® just as efficiently as plugging into the wall.
                 </p>
             </div>
             <div class="img-block_right">
                 <img src="images/copy-blocks/stacked_5.jpg" />
             </div>
         </section>
+        <section id="block_4" class="content-stripe story-container">
+            <div class="content-block_right">
+                <h1>why it's better</h1>
+                <p>
+                    Our magnets form a direct contact connection to charge your STACKED power packs and the AC wall plug. 
+                </p>
+
+                <p>
+                    Quickly charge your STACKED power packs with the AC wall plug quick charge.
+                </p>
+            </div>
+            <div class="img-block_left">
+                <img src="images/copy-blocks/stacked_9.jpg" />
+            </div>
+        </section>
+        <section id="block_4" class="content-stripe story-container">
+          
+            <div class="img-block_half_right">
+                <img src="images/copy-blocks/stacked_13.jpg" />
+            </div>  
+            <div class="img-block_half_left">
+                <img src="images/copy-blocks/stacked_12.jpg" />
+            </div>
+        </section>
          <section id="mailchimp">
              <?php include("inc/mailchimp.php"); ?>
          </section>
+        </div>
+
+        <div id="footer-block">
+    <?php 
+        include("inc/footer.php"); 
+    ?>
+    </div>
     </div> <!-- End Main -->
-<?php 
-    include("inc/footer.php"); 
-?>
+    
+    </div> <!-- End bigwrap -->
+
+

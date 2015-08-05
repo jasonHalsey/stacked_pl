@@ -8,10 +8,23 @@
 .content-stripe{
 	width:100%;
 	height:auto;
-	max-height: 600px;
+	// max-height: 600px;
 	min-height: 600px;
 	overflow: hidden;
 	position:relative;
+	border-bottom: 10px solid #333;
+	p{
+		font-family: $bodyfont;
+		line-height: 2.2em;
+		font-weight: bold;
+	}
+	h1{
+		font-family: $headerfont;
+		font-size:2.0em;
+		text-transform: capitalize;
+		margin: 0 0 0.3em;
+		font-weight: bold;
+	}
 }
 
 
@@ -19,12 +32,38 @@
 .content-block_left{
 	display:block;
 	width:50%;
-	position:absolute;
-	top:25%;
-	left:0;
-	background-color: rgba(0, 0, 0, 0.5);
-	color:#fff;
-	padding:1.5em;
+	float:left;
+	// background-color: rgba(0, 0, 0, 0.5);
+	color:#666;
+	padding:15% 1.5em 1.5em 10.0em;
+	@include media($small_screen) {
+		width:100%;
+		padding:5% 1.5em 1.5em 3.0em;
+	}
+}
+
+.img-block_half_right{
+	width:50%;
+	height:auto;
+	float:right;
+	@include media($small_screen) {
+		width:100%;
+		height:auto;
+		text-align: center;
+		padding: 1.0em 2.0em;
+		border-bottom: 10px solid #333;
+	}
+}
+.img-block_half_left{
+	width:50%;
+	height:auto;
+	float:left;
+	@include media($small_screen) {
+		width:100%;
+		height:auto;
+		text-align: center;
+		padding: 1.0em 2.0em;
+	}
 }
 
 
@@ -32,32 +71,85 @@
 .content-block_right{
 	display:block;
 	width:50%;
-	position:absolute;
-	top:25%;
-	right:0;
-	background-color: rgba(0, 0, 0, 0.5);
-	color:#fff;
-	padding:1.5em;
+	float:right;
+	color:#666;
+	padding:15% 10.0em 1.5em 1.5em;
+	@include media($small_screen) {
+		width:100%;
+		padding:5% 1.5em 1.5em 3.0em;
+	}
+}
+.content-block_right_sm{
+	display:block;
+	float:right;
+	color:#666;
+	padding:20% 1.5em 1.5em;
+	width: 30%;
 }
 
 .img-block_right{
-	height:800px;
 	text-align:right;
+	float:right;
+	width:50%;
 	img{
-		height:100%;
-		width:auto;
+		height: auto;
+		width:100%;
+		display: block;
+		max-height: 800px;
+		max-width: 600px;
+		float:right;
+	}
+	@include media($small_screen) {
+		width:100%;
 	}
 }
 .img-block_left{
-	height:800px;
 	text-align:left;
+	float:left;
+	width:50%;
 	img{
-		height:100%;
-		width:auto;
+		height: auto;
+		width:100%;
+		display: block;
+		max-height: 800px;
+		max-width: 600px;
+		float:left;
+	}
+	@include media($small_screen) {
+		width:100%;
 	}
 }
+#block_horz{
+	@include clearfix;
+	border-top: 15px solid #666;
+	border-bottom: 15px solid #444;
+	width:100%;
+	height:auto;
+	position:relative;
 
-#block_1{
-	
+}
+.horz_img{
+	width:33.3%;
+	float:left;
+	img{
+		width:100%;
+		height:auto;
+		display:block;
+	}
+}
+#mailchimp{
+	width:100%;
+	display: block;
+	@include clearfix;
+}
+//MailChimp Signup
+#mc_embed_signup{
+	display:block;
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	h2{
+		text-align: center;
+	}
 }
 

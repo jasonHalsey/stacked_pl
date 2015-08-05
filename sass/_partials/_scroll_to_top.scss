@@ -19,6 +19,7 @@ Modules - reusable parts of our design
   position: fixed;
   bottom: 40px;
   right: 10px;
+  z-index:6666;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   /* image replacement properties */
@@ -59,5 +60,6 @@ Modules - reusable parts of our design
     width: 60px;
     right: 30px;
     bottom: 30px;
+    z-index:6666;
   }
 }
