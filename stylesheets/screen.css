@@ -938,19 +938,35 @@ Modules - reusable parts of our design
   }
 }
 
-/* line 128, ../sass/_partials/_copy-block.scss */
+/* line 129, ../sass/_partials/_copy-block.scss */
+#block_4 .img-block_left img {
+  height: auto;
+  width: 100%;
+  display: block;
+  max-width: 500px;
+  float: left;
+  padding-left: 6.0em;
+}
+@media screen and (max-width: 1000px) {
+  /* line 129, ../sass/_partials/_copy-block.scss */
+  #block_4 .img-block_left img {
+    padding-left: 1.0em;
+  }
+}
+
+/* line 143, ../sass/_partials/_copy-block.scss */
 .line-block {
   width: 33.333%;
   float: left;
   display: block;
 }
-/* line 132, ../sass/_partials/_copy-block.scss */
+/* line 147, ../sass/_partials/_copy-block.scss */
 .line-block img {
   display: block;
   width: 100%;
   height: auto;
 }
-/* line 137, ../sass/_partials/_copy-block.scss */
+/* line 152, ../sass/_partials/_copy-block.scss */
 .line-block p.line-block-descript {
   display: block;
   width: 100%;
@@ -959,14 +975,14 @@ Modules - reusable parts of our design
   padding: 1.5em;
 }
 @media screen and (max-width: 979px) {
-  /* line 128, ../sass/_partials/_copy-block.scss */
+  /* line 143, ../sass/_partials/_copy-block.scss */
   .line-block {
     width: 100%;
     border-bottom: 10px solid #333;
   }
 }
 
-/* line 151, ../sass/_partials/_copy-block.scss */
+/* line 166, ../sass/_partials/_copy-block.scss */
 #block_horz {
   border-top: 15px solid #666;
   border-bottom: 15px solid #444;
@@ -981,19 +997,19 @@ Modules - reusable parts of our design
   display: table;
 }
 
-/* line 160, ../sass/_partials/_copy-block.scss */
+/* line 175, ../sass/_partials/_copy-block.scss */
 .horz_img {
   width: 33.3%;
   float: left;
 }
-/* line 163, ../sass/_partials/_copy-block.scss */
+/* line 178, ../sass/_partials/_copy-block.scss */
 .horz_img img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* line 169, ../sass/_partials/_copy-block.scss */
+/* line 184, ../sass/_partials/_copy-block.scss */
 #mailchimp {
   width: 100%;
   display: block;
@@ -1005,19 +1021,19 @@ Modules - reusable parts of our design
   display: table;
 }
 
-/* line 175, ../sass/_partials/_copy-block.scss */
+/* line 190, ../sass/_partials/_copy-block.scss */
 #mc_embed_signup {
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 180, ../sass/_partials/_copy-block.scss */
+/* line 195, ../sass/_partials/_copy-block.scss */
 #mc_embed_signup h2 {
   text-align: center;
 }
 @media screen and (max-width: 979px) {
-  /* line 175, ../sass/_partials/_copy-block.scss */
+  /* line 190, ../sass/_partials/_copy-block.scss */
   #mc_embed_signup {
     width: 80%;
   }
@@ -1034,15 +1050,16 @@ body {
   width: 100%;
   position: absolute;
   z-index: 6;
+  background-color: #fff;
 }
 
-/* line 10, ../sass/_partials/_structure.scss */
+/* line 11, ../sass/_partials/_structure.scss */
 #main {
   background-color: #fff;
   position: relative;
 }
 
-/* line 15, ../sass/_partials/_structure.scss */
+/* line 16, ../sass/_partials/_structure.scss */
 .overlay-container {
   position: relative;
   z-index: 888;

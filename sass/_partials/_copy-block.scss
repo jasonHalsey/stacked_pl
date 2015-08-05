@@ -124,6 +124,21 @@
 	}
 }
 
+#block_4{
+	.img-block_left{
+		img{
+			height: auto;
+			width:100%;
+			display: block;
+			max-width: 500px;
+			float:left;
+			padding-left:6.0em;
+			@include media($small_screen) {
+				padding-left:1.0em;
+			}
+		}
+	}
+}
 
 .line-block{
 	width:33.333%;

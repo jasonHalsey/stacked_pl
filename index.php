@@ -5,8 +5,8 @@
 <div id="top"></div>
    <section id="video" class="video-content-stripe">
         <div class="header-video">
-            <img src="images/video-fallback.jpg" class="header-video--media" data-video-src="135315277"  data-provider="Vimeo" data-video-width="500" data-video-height="281">
-            <a href="https://vimeo.com/135315277" class="video-trigger" id="video-trigger">Play video</a>
+            <img src="images/video-fallback.jpg" class="header-video--media" data-video-src="135425274"  data-provider="Vimeo" data-video-width="500" data-video-height="281">
+            <a href="https://vimeo.com/135425274" class="video-trigger" id="video-trigger">Play video</a>
         </div>
         
     </section>
@@ -16,7 +16,7 @@
 
         <section id="block_1" class="content-stripe story-container">
             <div class="content-block_left">
-                <h1>charges faster</h1>
+                <h1>wireless charging</h1>
                 <p>
                     Wireless charging just took a giant step forward. STACKED charges faster than competing technologies because our magnetic connectors form direct contact to charge your iPhone®.  
                 </p>
@@ -78,19 +78,19 @@
           <div class="line-block">
             <img src="images/copy-blocks/stacked_13_a.jpg" />
               <p class="line-block-descript">
-              Charge your phone magnetically on the AC wall plug
+              Charge your phone
               </p>
           </div>
           <div class="line-block">
             <img src="images/copy-blocks/stacked_13b.jpg" />
               <p class="line-block-descript">
-              Charge your phone magnetically on the AC wall plug
+              Charge your power packs
               </p>
           </div>
           <div class="line-block">
             <img src="images/copy-blocks/stacked_12.jpg" />
               <p class="line-block-descript">
-              Charge your phone magnetically on the AC wall plug
+              Charge up to 5 power packs
               </p>
           </div>
             
