@@ -1,17 +1,15 @@
     <a href="#0" class="cd-top icon-circle-up"></a>
     <footer class="footer" role="contentinfo">
       <div class="footer-links">
-        <ul>
-          <li><h3>Content</h3></li>
-          <li><a href="contact_us.html">Contact</a></li>
-          <li><a href="store.html">Store</a></li>
-          <li class="single-page-nav"><a href="#top">Return To Top</a></li>
-        </ul>
+        
         <ul>
           <li><h3>Follow Us</h3></li>
-          <li><a href="http://instagram.com/onebxwd/">Instagram</a></li>
-          <li><a href="https://twitter.com/ONEBXWD">Twitter</a></li>
+          <li><a href="https://instagram.com/poweredbystacked/">Instagram</a></li>
+          <li><a href="#top" class="topper">Return To Top</a></li>
         </ul>
+        <ul class="stacked_footer_logo">
+          <li><a href="#top" class="topper"><img src="images/STACKED_Icon.svg" /></a></li>
+        </ul> 
         <ul>
           <li><h3>Contact Us</h3></li>
           <li>p: 310-277-4160</li>

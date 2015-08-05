@@ -12,6 +12,9 @@
   @include media($small_screen) {
     text-align: left;
   }
+  @include media($phone) {
+    height:75px;
+  }
 }
 
 .header.shrink {
@@ -34,6 +37,9 @@
     @include media($small_screen) {
       width:30%;
       margin-left:1.0em;
+      padding-top: 0;
+    }
+    @include media($mobile) {
       padding-top: 2%;
     }
   }

@@ -33,6 +33,13 @@
       }, 500);
       return false;
   });
+//Scroll to Top From Footer
+  $('a.topper').click(function(){
+      $('html, body').animate({
+          scrollTop: $( $(this).attr('href') ).offset().top
+      }, 500);
+      return false;
+  });
 
 //calculate the height of video container
     function videoStripeHeight() {

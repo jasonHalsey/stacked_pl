@@ -45,6 +45,12 @@
     }
   } 
 
+  .stacked_footer_logo{
+    @include media($mobile) {
+      display:none;
+    }
+  }
+
   .footer-links {
     @include clearfix;
     margin-bottom: $base-spacing;

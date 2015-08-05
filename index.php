@@ -71,14 +71,27 @@
                 <img src="images/copy-blocks/stacked_9.jpg" />
             </div>
         </section>
-        <section id="block_4" class="content-stripe story-container">
-          
-            <div class="img-block_half_right">
-                <img src="images/copy-blocks/stacked_13.jpg" />
-            </div>  
-            <div class="img-block_half_left">
-                <img src="images/copy-blocks/stacked_12.jpg" />
-            </div>
+        <section id="block_5" class="content-stripe story-container">
+
+          <div class="line-block">
+            <img src="images/copy-blocks/stacked_13_a.jpg" />
+              <p class="line-block-descript">
+              Charge your phone magnetically on the AC wall plug
+              </p>
+          </div>
+          <div class="line-block">
+            <img src="images/copy-blocks/stacked_13b.jpg" />
+              <p class="line-block-descript">
+              Charge your phone magnetically on the AC wall plug
+              </p>
+          </div>
+          <div class="line-block">
+            <img src="images/copy-blocks/stacked_12.jpg" />
+              <p class="line-block-descript">
+              Charge your phone magnetically on the AC wall plug
+              </p>
+          </div>
+            
         </section>
          <section id="mailchimp">
              <?php include("inc/mailchimp.php"); ?>
