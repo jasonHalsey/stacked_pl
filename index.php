@@ -13,22 +13,23 @@
     <div id="big-wrap">
     <div id="main">
       <div class="overlay-container">
+
         <section id="block_1" class="content-stripe story-container">
             <div class="content-block_left">
-                <h1>full protection</h1>
+                <h1>charges faster</h1>
                 <p>
-                    Our case offers full phone protection and easy access to buttons and ports.
+                    Wireless charging just took a giant step forward. STACKED charges faster than competing technologies because our magnetic connectors form direct contact to charge your iPhone®.  
                 </p>
 
                 <p>
-                    Our proprietary patented secure slide lock offers a robust yet thin one piece case design for ease of assembly.
-                    No more missing pieces or multiple steps to assemble your case. Simply pop in your phone, slide the connector and you’re ready for wireless charging.
+                    STACKED is the first wireless charging ecosystem to charge your iPhone® just as efficiently as plugging into the wall.
                 </p>
             </div>
             <div class="img-block_right">
-                <img src="images/copy-blocks/stacked_2.jpg" />
+                <img src="images/copy-blocks/stacked_5.jpg" />
             </div>
         </section>
+        
 
         <section id="block_2" class="content-stripe story-container">
             <div class="content-block_right">
@@ -43,17 +44,18 @@
         </section>
         <section id="block_3" class="content-stripe story-container">
             <div class="content-block_left">
-                <h1>charges faster</h1>
+                <h1>full protection</h1>
                 <p>
-                    Wireless charging just took a giant step forward. STACKED charges faster than competing technologies because our magnetic connectors form direct contact to charge your iPhone®.  
+                    Our case offers full phone protection and easy access to buttons and ports.
                 </p>
 
                 <p>
-                    STACKED is the first wireless charging ecosystem to charge your iPhone® just as efficiently as plugging into the wall.
+                    Our proprietary patented secure slide lock offers a robust yet thin one piece case design for ease of assembly.
+                    No more missing pieces or multiple steps to assemble your case. Simply pop in your phone, slide the connector and you’re ready for wireless charging.
                 </p>
             </div>
             <div class="img-block_right">
-                <img src="images/copy-blocks/stacked_5.jpg" />
+                <img src="images/copy-blocks/stacked_2.jpg" />
             </div>
         </section>
         <section id="block_4" class="content-stripe story-container">

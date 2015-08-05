@@ -40,6 +40,9 @@
 		width:100%;
 		padding:5% 1.5em 1.5em 3.0em;
 	}
+	@include media($phone) {
+		padding:5% 1.5em 1.5em 1.5em;
+	}
 }
 
 .img-block_half_right{
@@ -77,6 +80,9 @@
 	@include media($small_screen) {
 		width:100%;
 		padding:5% 1.5em 1.5em 3.0em;
+	}
+	@include media($phone) {
+		padding:5% 1.5em 1.5em 1.5em;
 	}
 }
 .content-block_right_sm{
@@ -142,13 +148,6 @@
 }
 
 
-
-
-
-
-
-
-
 #block_horz{
 	@include clearfix;
 	border-top: 15px solid #666;
@@ -180,6 +179,9 @@
 	margin-right: auto;
 	h2{
 		text-align: center;
+	}
+	@include media($tablet) {
+		width:80%
 	}
 }
 

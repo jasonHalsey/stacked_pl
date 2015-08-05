@@ -10,10 +10,13 @@
   overflow: hidden;
   text-align: center;
   @include media($small_screen) {
-    text-align: left;
+    // text-align: left;
+  }
+  @include media($horz_phone) {
+    height:140px;
   }
   @include media($phone) {
-    height:75px;
+    height:98px;
   }
 }
 
@@ -41,6 +44,9 @@
     }
     @include media($mobile) {
       padding-top: 2%;
+    }
+    @include media($horz_phone) {
+      margin-left:0em;
     }
   }
 }
@@ -86,4 +92,17 @@ a.signup{
     margin-top: 2%;
     font-size:0.4em;
   }
+  @include media($horz_phone) {
+    position:relative;
+    width:100%;
+    display:block;
+    right:0%;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+  }
 }
+
+
+
+

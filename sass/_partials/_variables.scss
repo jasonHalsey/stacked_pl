@@ -2,6 +2,7 @@ $small_screen: new-breakpoint(max-width 1000px);
 $tablet: new-breakpoint(max-width 979px);
 $mobile: new-breakpoint(max-width 767px);
 $phone: new-breakpoint(max-width 468px);
+$horz_phone: new-breakpoint(max-width 569px);
 
 $headerfont: "proxima-nova",sans-serif;
 $bodyfont: "adelle-sans",sans-serif;
