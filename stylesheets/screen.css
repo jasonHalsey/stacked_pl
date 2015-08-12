@@ -432,15 +432,13 @@ a.signup:hover {
 
 /* line 21, ../sass/_partials/_video.scss */
 #video {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   z-index: 4;
   width: 100%;
   height: auto;
   margin-top: 109px;
-  margin-bottom: 4.0em;
-  padding-bottom: 10.0em;
   max-width: 2400px;
   max-height: 920px;
 }
