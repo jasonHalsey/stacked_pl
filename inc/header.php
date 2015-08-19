@@ -15,6 +15,7 @@
     <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 </head>
 <body>
+    <?php include_once("inc/analyticstracking.php") ?>
     <div class="header">
       <img src="images/logo.svg" />
       <a href="#mailchimp" class="signup" id="list-trigger">Pre-Order Mailing List</a>
