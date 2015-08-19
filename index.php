@@ -5,8 +5,8 @@
 <div id="top"></div>
    <section id="video" class="video-content-stripe">
         <div class="header-video">
-            <img src="images/video-fallback.jpg" class="header-video--media" data-video-src="135496966"  data-provider="Vimeo" data-video-width="500" data-video-height="281">
-            <a href="https://vimeo.com/135496966" class="video-trigger" id="video-trigger">Play video</a>
+            <img src="images/video-fallback.jpg" class="header-video--media" data-video-src="136325708"  data-provider="Vimeo" data-video-width="500" data-video-height="281">
+            <a href="https://vimeo.com/136325708" class="video-trigger" id="video-trigger">Play video</a>
         </div>
         
     </section>
