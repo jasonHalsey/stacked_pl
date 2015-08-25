@@ -11,7 +11,7 @@
         
     </section>
     <div id="big-wrap">
-    <div id="main">
+    <div id="main" class="delayed">
       <div class="overlay-container">
         <section id="block_1" class="content-stripe story-container">
             <div class="content-block_left">

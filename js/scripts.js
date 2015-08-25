@@ -84,6 +84,11 @@
       }
   });
 
+//Lazy Load All Content Other Than Main Image
+  function delayLoad() {
+    $('.delayed').fadeIn(3000);
+  }
+
 
   $(document).ready(function(){
     HeaderVideo.init({
@@ -96,6 +101,7 @@
     headerOffset();
     // videoStripeOffset();
     // videoStripeHeight();
+    delayLoad();
 
 });
 
