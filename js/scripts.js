@@ -46,17 +46,13 @@
     function videoStripeHeight() {
       var container = $(".header-video").height();
       $(".video-content-stripe").height(container);
-      console.log(container);
     }
 
-    function mainHeight(){
-        divHeight = $('.overlay-container').height();
-        $('#main').css({'height' : divHeight});
-    }
 
   function headerOffset() {
     var header_offset = $(".header").height();
-    $('#video').css('margin-top', header_offset);
+    $('.embed-container').css('margin-top', header_offset);
+    console.log(header_offset);
   }
 
 
@@ -64,6 +60,13 @@
       var video_offset = $(".header-video img").height();
       var header_offset = $(".header").height();
       $('#big-wrap').css('margin-top', video_offset + 109);
+    }
+
+   function embedContainer() {
+      var placehoder_height = $(".embed-container img").height();
+      // $('#big-wrap').css('margin-top', video_offset + 109);
+      console.log(placehoder_height);
+      $(".embed-container").css("height", placehoder_height);
     }
 
 
@@ -90,24 +93,24 @@
   }
 
 
-  $(document).ready(function(){
-    HeaderVideo.init({
-      container: $('.header-video'),
-      header: $('.header-video--media'),
-      videoTrigger: $("#video-trigger"),
-      autoPlayVideo: false
-    });  
+$(document).ready(function(){
 
-    headerOffset();
-    // videoStripeOffset();
-    // videoStripeHeight();
+    // headerOffset();
     delayLoad();
+    embedContainer();
 
 });
 
-  $(window).resize(function() {
-    // videoStripeOffset();
-    headerOffset();
-    // videoStripeHeight();
-  });
+$(window).resize(function() {
+    // headerOffset();
+    embedContainer();
+});
+
+
+
+$('.vimeoplayer').click(function(){
+  $(this).parent().html('<iframe src="http://player.vimeo.com/video/'+$(this).data('vimeoid')+'?title=0&autoplay=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
+
+
+});
 

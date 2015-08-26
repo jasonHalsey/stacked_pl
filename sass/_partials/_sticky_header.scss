@@ -1,10 +1,10 @@
 .header {
   display:none;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  height:109px;
+  // height:109px;
   background: rgba(0, 0, 0, 0.75);
   color: #fff;
   z-index: 1000;
@@ -21,20 +21,18 @@
   }
 }
 
-.header.shrink {
-  // height: 100px;
-  // line-height: 80px;
-}
 
 .header {
   font-size: 30px;
   font-weight: normal;
-  padding-top:1%;
-  padding-bottom:1%;
+  padding-top:20px;
+  padding-bottom:20px;
   img{
     width:20%;
     max-width:300px;
     height:auto;
+    display:block;
+    margin: 0 auto;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -51,23 +49,6 @@
     }
   }
 }
-
-// .header.shrink {
-//   font-size: 24px;
-//   padding-top:1%;
-//   padding-bottom:1%;
-//   img{
-//     width:20%;
-//     height:auto;
-//     // -webkit-transition: all 0.3s;
-//     // -moz-transition: all 0.3s;
-//     // transition: all 0.3s;
-//     @include media($small_screen) {
-//       width:30%;
-//       margin-left:2.0em;
-//     }
-//   }
-// }
 
 a.signup{
   z-index: 9999;
