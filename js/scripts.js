@@ -64,7 +64,6 @@
 
    function embedContainer() {
       var placehoder_height = $(".embed-container img").height();
-      // $('#big-wrap').css('margin-top', video_offset + 109);
       console.log(placehoder_height);
       $(".embed-container").css("height", placehoder_height);
     }
@@ -106,7 +105,21 @@ $(window).resize(function() {
     embedContainer();
 });
 
+$(window).scroll(function() {
+    var y_scroll_pos = window.pageYOffset;
+    var scroll_pos_test = 5;             
+  // set to whatever you want it to be
 
+    if(y_scroll_pos > scroll_pos_test) {
+     $(".header").addClass("fixed_header");
+     $('.embed-container iframe').addClass('fixed_iframe');
+    }
+    else
+    {
+      $(".header").removeClass("fixed_header");
+      $('.embed-container iframe').removeClass('fixed_iframe');
+    }
+});
 
 $('.vimeoplayer').click(function(){
   $(this).parent().html('<iframe src="http://player.vimeo.com/video/'+$(this).data('vimeoid')+'?title=0&autoplay=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');

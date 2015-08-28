@@ -21,6 +21,12 @@
   }
 }
 
+.fixed_header{
+  position:fixed!important;
+  transition: top 0.5s ease;
+  top: 0;
+}
+
 
 .header {
   font-size: 30px;
@@ -40,12 +46,15 @@
       width:30%;
       margin-left:1.0em;
       padding-top: 0;
+      float:left;
     }
     @include media($mobile) {
       padding-top: 2%;
+      
     }
     @include media($horz_phone) {
       margin-left:0em;
+      float:none;
     }
   }
 }
@@ -57,7 +66,7 @@ a.signup{
   text-align: center;
   color: #000;
   text-decoration: none;
-  z-index: 5;
+  
   right: 5%;
   line-height: 30px;
   text-transform: uppercase;
