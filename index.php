@@ -6,6 +6,7 @@
 
     <div class='embed-container'>
       <img class="vimeoplayer" data-vimeoid="136325708" src="images/video-fallback.jpg"  alt="The swink project animation by Constantinos Kilaris">
+      <div class="video-trigger" id="video-trigger">Watch Video</div>
     </div>
 
     <div id="big-wrap">

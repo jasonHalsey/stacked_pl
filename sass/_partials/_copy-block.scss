@@ -25,6 +25,15 @@
 		margin: 0 0 0.3em;
 		font-weight: bold;
 		color:$secondaryFontColor;
+		position:relative;
+		&:after {
+		    content: url(../images/sm_STACKED_Icon.svg);
+		    display: inline-block;
+		    width: 22px;
+		    height: 25px;
+		    position:absolute;
+		    top:0;
+		}
 	}
 }
 
@@ -77,7 +86,7 @@
 	width:50%;
 	float:right;
 	color:$primaryFontColor;
-	padding:15% 10.0em 1.5em 1.5em;
+	padding:15% 9.0em 1.5em 1.5em;
 	@include media($small_screen) {
 		width:100%;
 		padding:5% 1.5em 1.5em 3.0em;

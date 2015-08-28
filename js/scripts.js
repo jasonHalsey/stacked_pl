@@ -121,8 +121,8 @@ $(window).scroll(function() {
     }
 });
 
-$('.vimeoplayer').click(function(){
-  $(this).parent().html('<iframe src="http://player.vimeo.com/video/'+$(this).data('vimeoid')+'?title=0&autoplay=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
+$('.video-trigger').click(function(){
+  $('.vimeoplayer').parent().html('<iframe src="http://player.vimeo.com/video/'+$('.vimeoplayer').data('vimeoid')+'?title=0&autoplay=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
 
 
 });
