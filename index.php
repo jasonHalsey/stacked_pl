@@ -3,13 +3,12 @@
     include("inc/header.php"); 
 ?>
 <div id="top"></div>
-   <section id="video" class="video-content-stripe">
-        <div class="header-video">
-            <img src="images/video-fallback.jpg" class="header-video--media" data-video-src="136325708"  data-provider="Vimeo" data-video-width="500" data-video-height="281">
-            <a href="https://vimeo.com/136325708" class="video-trigger" id="video-trigger">Watch Video</a>
-        </div>
-        
-    </section>
+
+    <div class='embed-container'>
+      <img class="vimeoplayer" data-vimeoid="136325708" src="images/video-fallback.jpg"  alt="The swink project animation by Constantinos Kilaris">
+      <div class="video-trigger" id="video-trigger">Watch Video</div>
+    </div>
+
     <div id="big-wrap">
     <div id="main" class="delayed">
       <div class="overlay-container">

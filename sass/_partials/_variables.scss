@@ -1,10 +1,30 @@
-$small_screen: new-breakpoint(max-width 1000px);
+$small_screen: new-breakpoint(max-width 980px);
 $tablet: new-breakpoint(max-width 979px);
 $mobile: new-breakpoint(max-width 767px);
 $phone: new-breakpoint(max-width 468px);
 $horz_phone: new-breakpoint(max-width 569px);
+$wide_screen: new-breakpoint(min-width 1001px);
 
 $headerfont: "proxima-nova",sans-serif;
 $bodyfont: "adelle-sans",sans-serif;
 
-$primaryFontColor: #000;
+$primaryFontColor: #373737;
+$secondaryFontColor: #4a4a4a;
+
+//responsive claases
+ @include media($tablet) {
+ 	.desktop{
+ 		display:block!important;
+ 	}
+ 	.mobile{
+ 		display:none!important;
+ 	}
+ }
+  @include media($small_screen) {
+  	.desktop{
+ 		display:none!important;
+ 	}
+ 	.mobile{
+ 		display:block!important;
+ 	}
+  }
