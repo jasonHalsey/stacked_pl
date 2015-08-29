@@ -24,7 +24,8 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-
+    <script src="js/jquery.vimeo.api.js"></script>
+    <script src="js/videobg.js"></script>
     <script src="js/vendor/jquery.singlePageNav.js"></script>
     <!--<script src="js/hd-spectragram.js"></script>-->
     <script src="js/scripts.js"></script>
