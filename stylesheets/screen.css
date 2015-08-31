@@ -421,6 +421,15 @@ picture {
 }
 
 /* line 62, ../sass/_partials/_sticky_header.scss */
+#header_contain {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 70, ../sass/_partials/_sticky_header.scss */
 a.signup {
   z-index: 9999;
   position: absolute;
@@ -438,19 +447,19 @@ a.signup {
   padding: 0em 1.0em;
   margin-top: 2%;
 }
-/* line 79, ../sass/_partials/_sticky_header.scss */
+/* line 87, ../sass/_partials/_sticky_header.scss */
 a.signup:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 @media screen and (max-width: 980px) {
-  /* line 62, ../sass/_partials/_sticky_header.scss */
+  /* line 70, ../sass/_partials/_sticky_header.scss */
   a.signup {
     margin-top: 2%;
     font-size: 0.4em;
   }
 }
 @media screen and (max-width: 569px) {
-  /* line 62, ../sass/_partials/_sticky_header.scss */
+  /* line 70, ../sass/_partials/_sticky_header.scss */
   a.signup {
     position: relative;
     width: 100%;
@@ -1042,6 +1051,11 @@ body {
 }
 
 /* line 28, ../sass/_partials/_embed-video.scss */
+.fixed_img {
+  position: fixed !important;
+}
+
+/* line 32, ../sass/_partials/_embed-video.scss */
 .video-trigger {
   z-index: 9999;
   position: absolute;
@@ -1066,7 +1080,7 @@ body {
   cursor: pointer;
 }
 
-/* line 52, ../sass/_partials/_embed-video.scss */
+/* line 56, ../sass/_partials/_embed-video.scss */
 .video-trigger:hover {
   background: #363636;
   color: #FFF200;

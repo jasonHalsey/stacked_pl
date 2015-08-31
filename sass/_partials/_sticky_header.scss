@@ -59,6 +59,14 @@
   }
 }
 
+#header_contain{
+  width:100%;
+  position: absolute;
+  z-index: 999;
+  display:block;
+  background-color: rgba(0,0,0,0.5);
+}
+
 a.signup{
   z-index: 9999;
   position: absolute;

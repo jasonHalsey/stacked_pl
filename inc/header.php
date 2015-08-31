@@ -16,9 +16,3 @@
 </head>
 <body>
     <?php include_once("inc/analyticstracking.php") ?>
-    <div class="header delayed">
-
-      <a href="#mailchimp" class="signup desktop" id="list-trigger">Pre-Order Mailing List</a>
-      <img src="images/logo.svg" />
-      <a href="#mailchimp" class="signup mobile" id="list-trigger">Pre-Order Mailing List</a>
-    </div>

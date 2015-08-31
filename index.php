@@ -5,8 +5,17 @@
 <div id="top"></div>
 
     <div class='embed-container'>
-      <img class="vimeoplayer" data-vimeoid="136325708" src="images/video-fallback.jpg"  alt="The swink project animation by Constantinos Kilaris">
+      <img class="vimeoplayer" data-vimeoid="136325708" src="images/video-fallback.jpg"  alt="Powered By Stacked">
       <div class="video-trigger" id="video-trigger">Watch Video</div>
+    </div>
+
+
+    <div class="header delayed">
+      <div id="header_contain">
+        <a href="#mailchimp" class="signup desktop" id="list-trigger">Pre-Order Mailing List</a>
+        <img src="images/logo.svg" />
+        <a href="#mailchimp" class="signup mobile" id="list-trigger">Pre-Order Mailing List</a>
+      </div>
     </div>
 
     <div id="big-wrap">
