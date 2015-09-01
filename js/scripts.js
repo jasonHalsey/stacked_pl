@@ -93,15 +93,11 @@
 
 
 $(document).ready(function(){
-
-    // headerOffset();
     delayLoad();
     embedContainer();
-
 });
 
 $(window).resize(function() {
-    // headerOffset();
     embedContainer();
 });
 
@@ -109,41 +105,45 @@ $(window).resize(function() {
 // Fix Header when .header reaches top of viewport
 $(function(){ // document ready
  
-  var stickyTop = $('.header').offset().top; // returns number 
- 
+  var stickyTop = $('#big-wrap').offset().top; // returns number 
+ $('.fixed').hide();
+
   $(window).scroll(function(){ // scroll event  
  
     var windowTop = $(window).scrollTop(); // returns number
- 
-    if (stickyTop < windowTop) {
-      $('.header').css({ position: 'fixed', top: 0 });
-    }
-    else {
-      $('.header').css('position','relative');
-    }
- 
+    
+    if (stickyTop < windowTop) {   
+      $('.fixed').slideDown('slow');
+      $('.nonfixed').hide();
+    }else {
+       $('.fixed').hide();
+
+       $('.nonfixed').show();
+     }
   });
+
+
  
 });
 
 
+// $(window).scroll(function() {
+//     var y_scroll_pos = window.pageYOffset;
+//     var scroll_pos_test = 1;             
+//   // set to whatever you want it to be
 
-$(window).scroll(function() {
-    var y_scroll_pos = window.pageYOffset;
-    var scroll_pos_test = 5;             
-  // set to whatever you want it to be
+//     if(y_scroll_pos > scroll_pos_test) {
+//      $('.embed-container img').addClass('fixed_img');
+//     }
+//     else
+//     {
+//       $('.embed-container img').removeClass('fixed_img');
+//     }
+// });
 
-    if(y_scroll_pos > scroll_pos_test) {
-     // $('.embed-container iframe').addClass('fixed_iframe');
-     $('.embed-container img').addClass('fixed_img');
-    }
-    else
-    {
-      // $('.embed-container iframe').removeClass('fixed_iframe');
-      $('.embed-container img').removeClass('fixed_img');
-    }
-});
 
+
+//swap video placeholder with vimeo video on 
 $('.video-trigger').click(function(){
   $('.vimeoplayer').parent().html('<iframe src="http://player.vimeo.com/video/'+$('.vimeoplayer').data('vimeoid')+'?title=0&autoplay=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
 
