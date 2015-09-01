@@ -119,7 +119,7 @@ $(function(){ // document ready
       $('.header').css({ position: 'fixed', top: 0 });
     }
     else {
-      $('.header').css('position','static');
+      $('.header').css('position','relative');
     }
  
   });
@@ -134,12 +134,12 @@ $(window).scroll(function() {
   // set to whatever you want it to be
 
     if(y_scroll_pos > scroll_pos_test) {
-     $('.embed-container iframe').addClass('fixed_iframe');
+     // $('.embed-container iframe').addClass('fixed_iframe');
      $('.embed-container img').addClass('fixed_img');
     }
     else
     {
-      $('.embed-container iframe').removeClass('fixed_iframe');
+      // $('.embed-container iframe').removeClass('fixed_iframe');
       $('.embed-container img').removeClass('fixed_img');
     }
 });

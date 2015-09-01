@@ -11,11 +11,11 @@
 
 
     <div class="header delayed">
-      <div id="header_contain">
+      
         <a href="#mailchimp" class="signup desktop" id="list-trigger">Pre-Order Mailing List</a>
         <img src="images/logo.svg" />
         <a href="#mailchimp" class="signup mobile" id="list-trigger">Pre-Order Mailing List</a>
-      </div>
+
     </div>
 
     <div id="big-wrap">
