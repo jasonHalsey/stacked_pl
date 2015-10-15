@@ -4,6 +4,11 @@
 	height: 0; 
 	overflow: hidden; 
 	max-width: 100%; 
+  img{
+    position:fixed;
+    top:0;
+    left:0;
+  }
 } 
 .embed-container object, .embed-container embed { 
 	position: absolute; 
@@ -23,6 +28,12 @@
 
 .fixed_iframe{
 	position:fixed!important;
+  top:0;
+  left:0;
+}
+
+.fixed_img{
+  position:fixed!important;
 }
 
 .video-trigger {
