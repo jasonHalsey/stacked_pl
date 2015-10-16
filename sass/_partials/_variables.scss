@@ -8,10 +8,17 @@ $wide_screen: new-breakpoint(min-width 1001px);
 $headerfont: "proxima-nova",sans-serif;
 $bodyfont: "adelle-sans",sans-serif;
 
-$primaryFontColor: #373737;
-$secondaryFontColor: #4a4a4a;
-
-//responsive claases
+$primaryFontColor: #878787;
+$secondaryFontColor: #404040;
+//responsive classes
+@include media($wide_screen) {
+ 	.desktop{
+ 		display:block!important;
+ 	}
+ 	.mobile{
+ 		display:none!important;
+ 	}
+}
  @include media($tablet) {
  	.desktop{
  		display:block!important;
@@ -20,11 +27,19 @@ $secondaryFontColor: #4a4a4a;
  		display:none!important;
  	}
  }
-  @include media($small_screen) {
-  	.desktop{
- 		display:none!important;
- 	}
- 	.mobile{
- 		display:block!important;
- 	}
-  }
+ @include media($mobile) {
+	.desktop{
+		display:none!important;
+	}
+	.mobile{
+		display:block!important;
+	}
+}
+@include media($small_screen) {
+	.desktop{
+		display:none!important;
+	}
+	.mobile{
+		display:block!important;
+	}
+}

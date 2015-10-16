@@ -6,34 +6,47 @@
 
 //common copy-block styles
 .content-stripe{
-	width:100%;
+	width:90%;
 	height:auto;
-	// max-height: 600px;
+	display:block;
+	margin: 0 auto;
 	min-height: 600px;
 	overflow: hidden;
 	position:relative;
-	border-bottom: 10px solid #333;
+	border-bottom: 1px solid #878787;
+	text-align: center;
+	padding-bottom:6.0em;
+	&:last-child{
+		padding-bottom:0;
+	}
 	p{
 		font-family: $bodyfont;
 		line-height: 2.2em;
-		font-weight: bold;
+		font-weight: 300;
+		width:100%;
+		max-width: 800px;
+		display:block;
+		color:$primaryFontColor;
+		margin: auto;
+		text-transform: uppercase;
 	}
 	h1{
 		font-family: $headerfont;
-		font-size:2.0em;
+		font-size:1.75em;
 		text-transform: uppercase;
-		margin: 0 0 0.3em;
-		font-weight: bold;
+		margin: 3.0em 0;
+		font-weight: 300;
 		color:$secondaryFontColor;
 		position:relative;
-		&:after {
-		    content: url(../images/sm_STACKED_Icon.svg);
-		    display: inline-block;
-		    width: 22px;
-		    height: 25px;
-		    position:absolute;
-		    top:0;
+		span{
+			display:block;
+			font-weight: 600;
+			font-size:1.0em;
 		}
+	}
+	img{
+		display:block;
+		margin: 0 0 6.0em 0;
 	}
 }
 
@@ -135,18 +148,9 @@
 }
 
 #block_4{
-	.img-block_left{
-		img{
-			height: auto;
-			width:100%;
-			display: block;
-			max-width: 500px;
-			float:left;
-			padding-left:6.0em;
-			@include media($small_screen) {
-				padding-left:1.0em;
-			}
-		}
+	padding-bottom:0!important;
+	img{
+		margin-bottom: 0!important;
 	}
 }
 
@@ -204,6 +208,10 @@
 	margin-right: auto;
 	h2{
 		text-align: center;
+		font-weight: 300!important;
+		text-transform: uppercase;
+		color:$secondaryFontColor;
+		font-family: $headerfont;
 	}
 	@include media($tablet) {
 		width:80%
