@@ -1058,7 +1058,6 @@ body {
 /* line 1, ../sass/_partials/_embed-video.scss */
 .embed-container {
   position: relative;
-  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 100%;

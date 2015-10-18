@@ -5,7 +5,7 @@
 <div id="top"></div>
 
     <div class='embed-container'>
-      <img class="vimeoplayer" data-vimeoid="136325708" src="images/video-fallback.jpg"  alt="Powered By Stacked">
+      <img class="vimeoplayer" data-vimeoid="136325708" src="images/01_b.jpg"  alt="Powered By Stacked">
       <!-- <div class="video-trigger" id="video-trigger">Watch Video</div> -->
     </div>
 
