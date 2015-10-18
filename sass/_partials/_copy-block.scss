@@ -15,7 +15,7 @@
 	position:relative;
 	border-bottom: 1px solid #878787;
 	text-align: center;
-	padding-bottom:6.0em;
+	padding-bottom:12.0em;
 	&:last-child{
 		padding-bottom:0;
 	}
@@ -34,7 +34,7 @@
 		font-family: $headerfont;
 		font-size:1.75em;
 		text-transform: uppercase;
-		margin: 3.0em 0;
+		margin: 6.0em 0 3.0em;
 		font-weight: 300;
 		color:$secondaryFontColor;
 		position:relative;
@@ -147,8 +147,9 @@
 	}
 }
 
-#block_4{
+#block_5{
 	padding-bottom:0!important;
+	padding-top:6.0em;
 	img{
 		margin-bottom: 0!important;
 	}

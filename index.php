@@ -6,23 +6,23 @@
 
     <div class='embed-container'>
       <img class="vimeoplayer" data-vimeoid="136325708" src="images/video-fallback.jpg"  alt="Powered By Stacked">
-      <!-- <div class="video-trigger" id="video-trigger">Watch Video</div> -->
+      <div class="video-trigger" id="video-trigger">Watch Video</div>
     </div>
 
 
     <div class="header delayed nonfixed">
       
-        <a href="#mailchimp" class="signup desktop" id="list-trigger">Pre-Order<br />Mailing List</a>
+        <a href="#mailchimp" class="signup desktop" id="list-trigger">Pre-Order<br />Now</a>
         <img src="images/logo.svg" />
-        <a href="#mailchimp" class="signup mobile" id="list-trigger">Pre-Order Mailing List</a>
+        <a href="#mailchimp" class="signup mobile" id="list-trigger">Pre-Order Now</a>
 
     </div>
 
     <div class="header delayed fixed">
       
-        <a href="#mailchimp" class="signup desktop" id="list-trigger">Pre-Order<br />Mailing List</a>
+        <a href="#mailchimp" class="signup desktop" id="list-trigger">Pre-Order<br />Now</a>
         <img src="images/logo.svg" />
-        <a href="#mailchimp" class="signup mobile" id="list-trigger">Pre-Order Mailing List</a>
+        <a href="#mailchimp" class="signup mobile" id="list-trigger">Pre-Order Now</a>
 
     </div>
 
@@ -36,9 +36,8 @@
                 <img src="images/copy-blocks/02.jpg" />
 
                 <p>
-                    Wireless charging just took a giant step forward. STACKED charges faster than competing technologies because our magnetic connectors form direct contact to charge your iPhone®.  
+                    Wireless charging just took a giant step forward. STACKED charges faster than competing technologies because our magnetic connectors form direct contact to charge your iPhone®.
                 </p>
-
                 <p>
                     STACKED is the first wireless charging ecosystem to charge your iPhone® just as efficiently as plugging into the wall.
                 </p>
@@ -63,7 +62,7 @@
         <section id="block_3" class="content-stripe story-container">
             <div class=" ">
                 <h1>full protection</h1>
-                <img src="images/copy-blocks/04.jpg" />
+                <img src="images/copy-blocks/03.jpg" />
                 <p>
                     Our case offers full phone protection and easy access to buttons and ports.
                 </p>
@@ -76,6 +75,16 @@
             </div>
         </section>
         <section id="block_4" class="content-stripe story-container">
+            <div class=" ">
+                <h1>stack</h1>
+                <img src="images/copy-blocks/04.jpg" />
+                <p>
+                    Our magnets form a direct contact connection to charge your STACKED power packs and the AC wall plug. Quickly charge UP TO 5 STACKED power packs with the AC wall plug quick charge.
+                </p>
+                
+            </div>
+        </section>
+        <section id="block_5" class="content-stripe story-container">
                 <img src="images/copy-blocks/05.jpg" />
         </section>
 
